@@ -122,11 +122,3 @@ nav.retour { padding-top: 28px; font-size: 15px; }
     color: var(--encre-douce); border: 1px solid var(--trait);
     border-radius: 20px; padding: 2px 11px;
 }
-
-/* L'emplacement de la suivante : présent, mais sans prétendre exister. */
-.a-venir {
-    border-style: dashed; opacity: .6;
-    justify-content: center; text-align: center;
-    padding: 30px 24px; display: block;
-}
-.a-venir p { font-size: 15px; }
