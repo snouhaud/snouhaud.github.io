@@ -1,4 +1,4 @@
-# SteveOctets
+# Steve Octets
 
 La vitrine : <https://snouhaud.github.io>
 
