@@ -3,6 +3,40 @@
     <channel>
         <title>Kodama</title>
         <item>
+            <title>1.3</title>
+            <pubDate>Mon, 31 Aug 2026 14:32:48 +0200</pubDate>
+            <sparkle:version>34</sparkle:version>
+            <sparkle:shortVersionString>1.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p>One more way to open the window — the most direct one.</p>
+<ul>
+    <li><strong>A right-click on the menu bar icon</strong> opens the window, without going
+    through the menu. Left-clicking is unchanged.</li>
+</ul>
+<p>
+    A double-click was considered. It does not hold up: the first click does not yet tell you
+    whether a second is coming, which would mean either delaying every menu opening by half a
+    second, or confusing a double-click with the equally common gesture of clicking the icon
+    again to dismiss the menu.
+</p>
+            ]]></description>
+            <description xml:lang="fr"><![CDATA[
+<p>Une façon de plus d'ouvrir la fenêtre, la plus directe.</p>
+<ul>
+    <li><strong>Un clic droit sur l'icône de la barre des menus</strong> ouvre la fenêtre,
+    sans passer par le menu. Le clic gauche, lui, ne change pas.</li>
+</ul>
+<p>
+    Le double-clic avait été envisagé. Il ne tient pas : le premier clic ne dit pas encore
+    s'il y en aura un second, ce qui obligerait soit à retarder d'une demi-seconde chaque
+    ouverture du menu, soit à confondre le double-clic avec le geste, tout aussi courant, de
+    recliquer sur l'icône pour refermer le menu.
+</p>
+            ]]></description>
+            <enclosure url="https://github.com/steveoctets/kodama/releases/download/v1.3/Kodama-1.3.zip" length="5237639" type="application/octet-stream" sparkle:edSignature="76dFBqxzQeszlgF5YUl0I8FijUtwgV94YF60KB+I4ZJJ/7yyOyFI+iK9FlD8jFNmh1gl5r1EAbf0/DwfLtOxAQ=="/>
+        </item>
+        <item>
             <title>1.2</title>
             <pubDate>Mon, 31 Aug 2026 13:00:40 +0200</pubDate>
             <sparkle:version>32</sparkle:version>
