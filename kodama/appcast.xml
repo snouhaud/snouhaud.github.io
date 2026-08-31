@@ -9,30 +9,16 @@
             <sparkle:shortVersionString>1.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-<p>One more way to open the window — the most direct one.</p>
 <ul>
-    <li><strong>A right-click on the menu bar icon</strong> opens the window, without going
-    through the menu. Left-clicking is unchanged.</li>
+    <li><strong>A right-click on the menu bar icon</strong> opens the window. Left-clicking
+    opens the menu, as before.</li>
 </ul>
-<p>
-    A double-click was considered. It does not hold up: the first click does not yet tell you
-    whether a second is coming, which would mean either delaying every menu opening by half a
-    second, or confusing a double-click with the equally common gesture of clicking the icon
-    again to dismiss the menu.
-</p>
             ]]></description>
             <description xml:lang="fr"><![CDATA[
-<p>Une façon de plus d'ouvrir la fenêtre, la plus directe.</p>
 <ul>
-    <li><strong>Un clic droit sur l'icône de la barre des menus</strong> ouvre la fenêtre,
-    sans passer par le menu. Le clic gauche, lui, ne change pas.</li>
+    <li><strong>Un clic droit sur l'icône de la barre des menus</strong> ouvre la fenêtre. Le
+    clic gauche ouvre le menu, comme avant.</li>
 </ul>
-<p>
-    Le double-clic avait été envisagé. Il ne tient pas : le premier clic ne dit pas encore
-    s'il y en aura un second, ce qui obligerait soit à retarder d'une demi-seconde chaque
-    ouverture du menu, soit à confondre le double-clic avec le geste, tout aussi courant, de
-    recliquer sur l'icône pour refermer le menu.
-</p>
             ]]></description>
             <enclosure url="https://github.com/steveoctets/kodama/releases/download/v1.3/Kodama-1.3.zip" length="5237639" type="application/octet-stream" sparkle:edSignature="76dFBqxzQeszlgF5YUl0I8FijUtwgV94YF60KB+I4ZJJ/7yyOyFI+iK9FlD8jFNmh1gl5r1EAbf0/DwfLtOxAQ=="/>
         </item>
@@ -43,32 +29,21 @@
             <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-<p>A shortcut that actually works.</p>
 <ul>
-    <li><strong>⌃⌥⌘R opens Kodama's window wherever you are.</strong> The menu's ⌘O only
-    responded when a Kodama window was already in front — that is, when you no longer needed
-    it: an application's shortcuts only apply while it has focus, and a menu bar application
-    almost never does. This one is system-wide.</li>
+    <li><strong>⌃⌥⌘R opens the window</strong>, wherever the cursor is: the shortcut is
+    system-wide, unlike the menu's ⌘O.</li>
 
-    <li><strong>It can be changed</strong> in Settings, under <em>Keyboard</em>: a
-    <em>Change…</em> button, whatever combination you type, and Esc for none at all. That
-    matters — a system-wide shortcut can clash with another application, and whichever
-    launched first keeps it.</li>
+    <li><strong>The shortcut can be changed</strong> in Settings, under <em>Keyboard</em>. Esc
+    leaves none.</li>
 </ul>
             ]]></description>
             <description xml:lang="fr"><![CDATA[
-<p>Un raccourci qui marche vraiment.</p>
 <ul>
-    <li><strong>⌃⌥⌘R ouvre la fenêtre de Kodama où que vous soyez.</strong> Le ⌘O du menu ne
-    répondait que si une fenêtre de Kodama était déjà devant — autrement dit quand on n'en
-    avait plus besoin : les raccourcis d'une application ne valent que lorsqu'elle a le
-    focus, et une application de barre des menus ne l'a presque jamais. Celui-ci vaut pour
-    tout le système.</li>
+    <li><strong>⌃⌥⌘R ouvre la fenêtre</strong>, où que soit le curseur : le raccourci vaut pour
+    tout le système, contrairement au ⌘O du menu.</li>
 
-    <li><strong>Il se change</strong> dans les Réglages, section <em>Clavier</em> : un bouton
-    <em>Modifier…</em>, la combinaison que vous tapez, et Échap pour n'en avoir aucun. C'est
-    nécessaire — un raccourci global peut entrer en conflit avec une autre application, et la
-    première lancée garde la main.</li>
+    <li><strong>Le raccourci se change</strong> dans les Réglages, section <em>Clavier</em>.
+    Échap n'en laisse aucun.</li>
 </ul>
             ]]></description>
             <enclosure url="https://github.com/steveoctets/kodama/releases/download/v1.2/Kodama-1.2.zip" length="5232332" type="application/octet-stream" sparkle:edSignature="5PYF8Lws0fkY+AyypneO+45Fc9izW3cTakm2uZPfVc7uLSHzl2oCia21ogbwzeQxVVFd9yY1bqGbKMJaPRjmDg=="/>
@@ -80,27 +55,23 @@
             <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-<p>Steve Octets now has an address of its own.</p>
 <ul>
-    <li><strong>The site has moved</strong> to
-    <a href="https://steveoctets.github.io/kodama/">steveoctets.github.io</a>, and this is the
-    first release to look there for updates. Earlier copies keep querying the old address,
-    which is kept alive for them: nobody is left behind.</li>
+    <li><strong>The site is now at
+    <a href="https://steveoctets.github.io/kodama/">steveoctets.github.io</a></strong>, and
+    that is where this release looks for updates.</li>
 
-    <li><strong>An “About” entry</strong> in the menu, giving the installed version and a link
-    to the site.</li>
+    <li><strong>An “About” entry</strong> in the menu: the installed version, and a link to
+    the site.</li>
 </ul>
             ]]></description>
             <description xml:lang="fr"><![CDATA[
-<p>Steve Octets a désormais une adresse à lui.</p>
 <ul>
-    <li><strong>Le site déménage</strong> vers
-    <a href="https://steveoctets.github.io/kodama/">steveoctets.github.io</a>, et cette
-    version est la première à y chercher ses mises à jour. Les copies antérieures continuent
-    d'interroger l'ancienne adresse, maintenue pour elles : personne ne reste en arrière.</li>
+    <li><strong>Le site est désormais à
+    <a href="https://steveoctets.github.io/kodama/">steveoctets.github.io</a></strong>, et
+    c'est là que cette version cherche ses mises à jour.</li>
 
-    <li><strong>Un « À propos »</strong> dans le menu, qui dit la version installée et mène
-    au site.</li>
+    <li><strong>Un « À propos »</strong> dans le menu : la version installée, et un lien vers
+    le site.</li>
 </ul>
             ]]></description>
             <enclosure url="https://github.com/steveoctets/kodama/releases/download/v1.1/Kodama-1.1.zip" length="5194588" type="application/octet-stream" sparkle:edSignature="s4flkqmNNq3Z5Ff5s39cVvGZolszHu/pZO/vvXVvBwAq55B/wW1YMvdQ8kyhy3hhj7nIq0keqk9+WJlQS3BnAw=="/>
@@ -112,52 +83,44 @@
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-<p>The first version I consider finished.</p>
 <ul>
-    <li><strong>Search fifty-eight thousand stations.</strong> Kodama queries the public
-    <a href="https://www.radio-browser.info">radio-browser.info</a> directory, by name, country
-    or genre. A button on each result asks the station itself whether it broadcasts track
-    titles — and therefore whether Kodama can record it. The directory does not know.</li>
+    <li><strong>Search among fifty-eight thousand radios</strong>, in the public
+    <a href="https://www.radio-browser.info">radio-browser.info</a> directory: by name, by
+    country or by genre. A button on each result queries the station and says whether it
+    broadcasts its titles, and so whether Kodama will be able to record it.</li>
 
-    <li><strong>Far more reliable detection of recordable stations.</strong> Kodama now reads the
-    stream until a real title arrives, instead of trusting a header: of sixteen stations drawn
-    from the directory, three announced one and never sent anything.</li>
+    <li><strong>Detection of recordable radios reads the stream</strong> until it gets a real
+    title, rather than trusting a header.</li>
 
-    <li><strong>Turn recording off for one station</strong>, from its own panel. For the cases
-    detection cannot catch — a station that announces a title but never changes it.</li>
+    <li><strong>Recording can be turned off for one radio</strong>, from its own sheet.</li>
 
-    <li><strong>The pending queue disappears</strong> when the station being played will produce
-    no tracks, rather than sitting there empty without explanation.</li>
+    <li><strong>The pending list disappears</strong> when the station being played will produce
+    no tracks.</li>
 
-    <li><strong>Updates finally say what they bring</strong>: this very window, which was empty
-    until now.</li>
+    <li><strong>Updates say what they bring</strong>: this very window.</li>
 </ul>
 <p>
-    Fixed: editing a stopped station and starting it again replayed the previous version,
-    recording setting included.
+    Fix: editing a stopped radio then starting it again replayed the old version, recording
+    setting included.
 </p>
             ]]></description>
             <description xml:lang="fr"><![CDATA[
-<p>La première version que j'assume comme finie.</p>
 <ul>
-    <li><strong>Chercher une radio parmi cinquante-huit mille.</strong> Kodama interroge
-    l'annuaire public <a href="https://www.radio-browser.info">radio-browser.info</a>, par nom,
-    par pays ou par genre. Un bouton par résultat interroge la station elle-même et dit si elle
-    diffuse ses titres — donc si Kodama saura l'enregistrer. L'annuaire, lui, ne le sait pas.</li>
+    <li><strong>Chercher une radio parmi cinquante-huit mille</strong>, dans l'annuaire public
+    <a href="https://www.radio-browser.info">radio-browser.info</a> : par nom, par pays ou par
+    genre. Un bouton par résultat interroge la station et dit si elle diffuse ses titres, donc
+    si Kodama saura l'enregistrer.</li>
 
-    <li><strong>La détection des radios enregistrables est bien plus sûre.</strong> Elle lit
-    désormais le flux jusqu'à obtenir un vrai titre, au lieu de se fier à un en-tête : sur seize
-    stations tirées de l'annuaire, trois l'annonçaient sans jamais rien envoyer.</li>
+    <li><strong>La détection des radios enregistrables lit le flux</strong> jusqu'à obtenir un
+    vrai titre, au lieu de se fier à un en-tête.</li>
 
-    <li><strong>Couper l'enregistrement d'une radio en particulier</strong>, depuis sa fiche.
-    Pour les cas que la détection ne peut pas voir — une station qui annonce un titre sans
-    jamais en changer.</li>
+    <li><strong>Couper l'enregistrement d'une radio en particulier</strong>, depuis sa
+    fiche.</li>
 
     <li><strong>La file d'attente s'efface</strong> quand la radio écoutée ne produira aucun
-    morceau, plutôt que de rester vide sans explication.</li>
+    morceau.</li>
 
-    <li><strong>Les mises à jour disent enfin ce qu'elles apportent</strong> : cette fenêtre
-    même, qui était vide jusqu'ici.</li>
+    <li><strong>Les mises à jour disent ce qu'elles apportent</strong> : cette fenêtre même.</li>
 </ul>
 <p>
     Correction : modifier une radio à l'arrêt puis la relancer rejouait l'ancienne version,
