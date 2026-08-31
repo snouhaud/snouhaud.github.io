@@ -3,6 +3,43 @@
     <channel>
         <title>Kodama</title>
         <item>
+            <title>1.2</title>
+            <pubDate>Mon, 31 Aug 2026 13:00:40 +0200</pubDate>
+            <sparkle:version>32</sparkle:version>
+            <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p>A shortcut that actually works.</p>
+<ul>
+    <li><strong>⌃⌥⌘R opens Kodama's window wherever you are.</strong> The menu's ⌘O only
+    responded when a Kodama window was already in front — that is, when you no longer needed
+    it: an application's shortcuts only apply while it has focus, and a menu bar application
+    almost never does. This one is system-wide.</li>
+
+    <li><strong>It can be changed</strong> in Settings, under <em>Keyboard</em>: a
+    <em>Change…</em> button, whatever combination you type, and Esc for none at all. That
+    matters — a system-wide shortcut can clash with another application, and whichever
+    launched first keeps it.</li>
+</ul>
+            ]]></description>
+            <description xml:lang="fr"><![CDATA[
+<p>Un raccourci qui marche vraiment.</p>
+<ul>
+    <li><strong>⌃⌥⌘R ouvre la fenêtre de Kodama où que vous soyez.</strong> Le ⌘O du menu ne
+    répondait que si une fenêtre de Kodama était déjà devant — autrement dit quand on n'en
+    avait plus besoin : les raccourcis d'une application ne valent que lorsqu'elle a le
+    focus, et une application de barre des menus ne l'a presque jamais. Celui-ci vaut pour
+    tout le système.</li>
+
+    <li><strong>Il se change</strong> dans les Réglages, section <em>Clavier</em> : un bouton
+    <em>Modifier…</em>, la combinaison que vous tapez, et Échap pour n'en avoir aucun. C'est
+    nécessaire — un raccourci global peut entrer en conflit avec une autre application, et la
+    première lancée garde la main.</li>
+</ul>
+            ]]></description>
+            <enclosure url="https://github.com/steveoctets/kodama/releases/download/v1.2/Kodama-1.2.zip" length="5232332" type="application/octet-stream" sparkle:edSignature="5PYF8Lws0fkY+AyypneO+45Fc9izW3cTakm2uZPfVc7uLSHzl2oCia21ogbwzeQxVVFd9yY1bqGbKMJaPRjmDg=="/>
+        </item>
+        <item>
             <title>1.1</title>
             <pubDate>Sun, 30 Aug 2026 23:40:56 +0200</pubDate>
             <sparkle:version>30</sparkle:version>
