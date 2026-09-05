@@ -3,6 +3,220 @@
     <channel>
         <title>Kodama</title>
         <item>
+            <title>1.5</title>
+            <pubDate>Tue, 01 Sep 2026 22:51:45 +0200</pubDate>
+            <sparkle:version>46</sparkle:version>
+            <sparkle:shortVersionString>1.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h3>1.5</h3>
+<ul>
+    <li><strong>A stalling stream is now detected</strong> — silence, or a rate fallen below
+    half of real time. Kodama cuts and reconnects instead of sitting on choppy playback. The
+    silence delay is configurable.</li>
+    <li><strong>Kodama gives up and says so</strong> when a station stays unreachable, instead
+    of retrying forever. The delay is configurable; zero never gives up.</li>
+    <li><strong>The reason for a dropout is shown</strong>: server not found, connection
+    refused, certificate refused, the station's status code. Failures that will not fix
+    themselves stop right away, and the screen says so rather than reconnecting forever.</li>
+    <li><strong>A log</strong>, under <code>~/Library/Logs/Kodama/</code>, opened from the menu.
+    That is what to attach to a report.</li>
+    <li>A station that announces no titles no longer stays shown as “Reconnecting…” once the
+    sound is back.</li>
+</ul>
+<h3>1.4</h3>
+<ul>
+    <li><strong>A recorded track is named after its station, the date and the time</strong> —
+    <code>Groove Salad - 2026-09-01 10h01 - Artist - Title.mp3</code> — instead of a running
+    number. Sorting by name therefore groups by station, and follows listening order within
+    each. Tracks already recorded are not renamed.</li>
+    <li><strong>The track playing when you connect is now recorded too</strong>, missing
+    whatever went out before. Its title carries “(partial)”. It is still subject to the
+    minimum duration threshold.</li>
+    <li><strong>The title shown in the Recordings window is read from the file</strong> rather
+    than from its name: renaming a track in the Finder no longer changes what Kodama shows.</li>
+</ul>
+<h3>1.3.2</h3>
+<ul>
+    <li><strong>A support link</strong> in the “About” panel, for anyone who feels like buying
+    a coffee. Nothing else changes.</li>
+</ul>
+<h3>1.3.1</h3>
+<ul>
+    <li><strong>The “About” panel</strong> is now the same whether it is opened from the menu
+    bar or from the application menu.</li>
+</ul>
+<h3>1.3</h3>
+<ul>
+    <li><strong>A right-click on the menu bar icon</strong> opens the window. Left-clicking
+    opens the menu, as before.</li>
+</ul>
+<h3>1.2</h3>
+<ul>
+    <li><strong>⌃⌥⌘R opens the window</strong>, wherever the cursor is: the shortcut is
+    system-wide, unlike the menu's ⌘O.</li>
+
+    <li><strong>The shortcut can be changed</strong> in Settings, under <em>Keyboard</em>. Esc
+    leaves none.</li>
+</ul>
+<h3>1.1</h3>
+<ul>
+    <li><strong>The site is now at
+    <a href="https://steveoctets.github.io/kodama/">steveoctets.github.io</a></strong>, and
+    that is where this release looks for updates.</li>
+
+    <li><strong>An “About” entry</strong> in the menu: the installed version, and a link to
+    the site.</li>
+</ul>
+<h3>1.0</h3>
+<ul>
+    <li><strong>Search among fifty-eight thousand radios</strong>, in the public
+    <a href="https://www.radio-browser.info">radio-browser.info</a> directory: by name, by
+    country or by genre. A button on each result queries the station and says whether it
+    broadcasts its titles, and so whether Kodama will be able to record it.</li>
+
+    <li><strong>Detection of recordable radios reads the stream</strong> until it gets a real
+    title, rather than trusting a header.</li>
+
+    <li><strong>Recording can be turned off for one radio</strong>, from its own sheet.</li>
+
+    <li><strong>The pending list disappears</strong> when the station being played will produce
+    no tracks.</li>
+
+    <li><strong>Updates say what they bring</strong>: this very window.</li>
+</ul>
+<p>
+    Fix: editing a stopped radio then starting it again replayed the old version, recording
+    setting included.
+</p>
+<h3>0.10</h3>
+<ul>
+    <li><strong>Launch at login.</strong> Kodama can now start when you log in, from its
+    Settings. It sits in the menu bar, playing nothing.</li>
+</ul>
+<p>The switch reads the actual state held by macOS rather than a copy of it: turning Kodama off
+from System Settings → General → Login Items shows up straight away in the app.</p>
+<h3>0.9</h3>
+<p>The first public release.</p>
+<ul>
+    <li><strong>Ten stations to start with</strong>, installed on first launch — ambient,
+    chillout, electronica, downtempo. All of them broadcast track titles, so recording works.</li>
+    <li><strong>Automatic updates.</strong> Kodama tells you about new versions and installs
+    them.</li>
+    <li><strong>English and French interface</strong>, following the system language.</li>
+    <li><strong>Configurable user agent</strong>: some stations only open their stream to an
+    agent they recognise.</li>
+</ul>
+<p>Universal binary, Apple silicon and Intel. Signed and notarised by Apple.</p>
+            ]]></description>
+            <description xml:lang="fr"><![CDATA[
+<h3>1.5</h3>
+<ul>
+    <li><strong>Un flux qui s'enlise est détecté</strong> — silence, ou débit tombé sous la
+    moitié du temps réel. Kodama coupe et se reconnecte au lieu de rester sur une lecture
+    hachée. Le délai de silence se règle.</li>
+    <li><strong>Kodama renonce et le dit</strong> quand une radio reste injoignable, au lieu de
+    réessayer sans fin. Le délai se règle, zéro pour ne jamais renoncer.</li>
+    <li><strong>Le motif d'une coupure s'affiche</strong> : serveur introuvable, connexion
+    refusée, certificat refusé, code de la station. Les pannes qui ne s'arrangeront pas d'elles-mêmes
+    arrêtent tout de suite, et l'écran l'annonce au lieu d'une reconnexion perpétuelle.</li>
+    <li><strong>Un journal</strong>, sous <code>~/Library/Logs/Kodama/</code>, ouvrable depuis le
+    menu. C'est ce qu'on joint à un signalement.</li>
+    <li>Une station qui n'annonce pas ses titres ne reste plus affichée comme « Reconnexion… »
+    une fois le son revenu.</li>
+</ul>
+<h3>1.4</h3>
+<ul>
+    <li><strong>Un morceau enregistré porte le nom de sa radio, la date et l'heure</strong> —
+    <code>Groove Salad - 2026-09-01 10h01 - Artiste - Titre.mp3</code> — au lieu d'un numéro
+    d'ordre. Le tri par nom groupe donc par radio, et l'ordre y suit l'écoute. Les fichiers
+    déjà enregistrés ne sont pas renommés.</li>
+    <li><strong>Le morceau en cours à la connexion est enregistré lui aussi</strong>, amputé de
+    ce qui est passé avant. Son titre porte « (extrait) ». Il reste soumis au seuil de durée
+    minimale.</li>
+    <li><strong>Le titre affiché dans la fenêtre Enregistrements est lu dans le fichier</strong>
+    et non plus dans son nom : renommer un morceau au Finder ne change plus ce que Kodama en
+    affiche.</li>
+</ul>
+<h3>1.3.2</h3>
+<ul>
+    <li><strong>Un lien de soutien</strong> dans le panneau « À propos », pour qui veut offrir
+    un café. Rien d'autre ne change.</li>
+</ul>
+<h3>1.3.1</h3>
+<ul>
+    <li><strong>Le panneau « À propos »</strong> est le même qu'on l'ouvre depuis le menu de
+    la barre des menus ou depuis celui de l'application.</li>
+</ul>
+<h3>1.3</h3>
+<ul>
+    <li><strong>Un clic droit sur l'icône de la barre des menus</strong> ouvre la fenêtre. Le
+    clic gauche ouvre le menu, comme avant.</li>
+</ul>
+<h3>1.2</h3>
+<ul>
+    <li><strong>⌃⌥⌘R ouvre la fenêtre</strong>, où que soit le curseur : le raccourci vaut pour
+    tout le système, contrairement au ⌘O du menu.</li>
+
+    <li><strong>Le raccourci se change</strong> dans les Réglages, section <em>Clavier</em>.
+    Échap n'en laisse aucun.</li>
+</ul>
+<h3>1.1</h3>
+<ul>
+    <li><strong>Le site est désormais à
+    <a href="https://steveoctets.github.io/kodama/">steveoctets.github.io</a></strong>, et
+    c'est là que cette version cherche ses mises à jour.</li>
+
+    <li><strong>Un « À propos »</strong> dans le menu : la version installée, et un lien vers
+    le site.</li>
+</ul>
+<h3>1.0</h3>
+<ul>
+    <li><strong>Chercher une radio parmi cinquante-huit mille</strong>, dans l'annuaire public
+    <a href="https://www.radio-browser.info">radio-browser.info</a> : par nom, par pays ou par
+    genre. Un bouton par résultat interroge la station et dit si elle diffuse ses titres, donc
+    si Kodama saura l'enregistrer.</li>
+
+    <li><strong>La détection des radios enregistrables lit le flux</strong> jusqu'à obtenir un
+    vrai titre, au lieu de se fier à un en-tête.</li>
+
+    <li><strong>Couper l'enregistrement d'une radio en particulier</strong>, depuis sa
+    fiche.</li>
+
+    <li><strong>La file d'attente s'efface</strong> quand la radio écoutée ne produira aucun
+    morceau.</li>
+
+    <li><strong>Les mises à jour disent ce qu'elles apportent</strong> : cette fenêtre même.</li>
+</ul>
+<p>
+    Correction : modifier une radio à l'arrêt puis la relancer rejouait l'ancienne version,
+    réglage d'enregistrement compris.
+</p>
+<h3>0.10</h3>
+<ul>
+    <li><strong>Démarrage automatique.</strong> Kodama peut désormais se lancer à l'ouverture de
+    session, depuis les Réglages. Elle se pose alors dans la barre des menus sans rien jouer.</li>
+</ul>
+<p>L'interrupteur lit l'état réel tenu par macOS plutôt qu'une copie : le désactiver depuis
+Réglages système → Général → Ouverture se voit aussitôt dans Kodama.</p>
+<h3>0.9</h3>
+<p>La première version publiée.</p>
+<ul>
+    <li><strong>Dix radios pour commencer</strong>, installées au premier lancement — ambient,
+    chillout, electro, downtempo. Toutes diffusent leurs titres, donc l'enregistrement y
+    fonctionne.</li>
+    <li><strong>Mises à jour automatiques.</strong> Kodama vous prévient des nouvelles versions
+    et les installe.</li>
+    <li><strong>Interface en français et en anglais</strong>, selon la langue du système.</li>
+    <li><strong>Agent utilisateur réglable</strong> : certaines stations n'ouvrent leur flux
+    qu'à un agent qu'elles reconnaissent.</li>
+</ul>
+<p>Binaire universel, Apple silicon et Intel. Signée et notarisée par Apple.</p>
+            ]]></description>
+            <sparkle:fullReleaseNotesLink>https://steveoctets.github.io/kodama/versions.html</sparkle:fullReleaseNotesLink>
+            <enclosure url="https://github.com/steveoctets/kodama/releases/download/v1.5/Kodama-1.5.zip" length="5281129" type="application/octet-stream" sparkle:edSignature="B09mlyKUbnwXKAQ6l6Isr4XjdWW8MYShyx5Zp31bWS/kB8fEqS4+6gFKqKedgD63/RkG5fBfnEieZ1cAs+S8AQ=="/>
+        </item>
+        <item>
             <title>1.4</title>
             <pubDate>Tue, 01 Sep 2026 17:43:19 +0200</pubDate>
             <sparkle:version>43</sparkle:version>
